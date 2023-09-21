@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "34572567822",
+    "firebase_url": "https://smartech-bb31e-default-rtdb.firebaseio.com",
+    "project_id": "smartech-bb31e",
+    "storage_bucket": "smartech-bb31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34572567822:android:07da03ff9da0c26d7a835f",
+        "android_client_info": {
+          "package_name": "com.example.smartechnavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34572567822-d00qj692ngfi5meoqnvr71hd84a0vrip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy8KgfBeIhY1ckHATlfFvy9OfJWenkfKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34572567822-d00qj692ngfi5meoqnvr71hd84a0vrip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

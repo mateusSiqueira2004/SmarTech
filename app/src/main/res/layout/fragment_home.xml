@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/btnAdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="345dp"
+                        android:layout_height="215dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/purple_500"
+                        android:src="@drawable/carouselum"></ImageButton>
+
+                    <ImageButton
+                        android:layout_width="345dp"
+                        android:layout_height="215dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/purple_700"
+                        android:src="@drawable/carouseldois"></ImageButton>
+
+                    <ImageButton
+                        android:layout_width="345dp"
+                        android:layout_height="215dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/black"
+                        android:src="@drawable/carouseltres"></ImageButton>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <ImageButton
+                android:id="@+id/BtnUm"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/btncursosimg" />
+
+            <ImageButton
+                android:id="@+id/BtnDois"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/btncomunidadeimg" />
+
+            <ImageButton
+                android:id="@+id/BtnTres"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/btnsuporte" />
+
+            <ImageButton
+                android:id="@+id/BtnQuatro"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="45dp"
+                android:src="@drawable/btnconfiguracoesimg" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

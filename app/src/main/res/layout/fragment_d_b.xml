@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.ui.cursos.DBFragment"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgMySql"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/curso_mysql"
+
+            />
+        <TextView
+            android:id="@+id/textViewCursoCatgDB_FB"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/catg_fb"
+            android:textSize="50dp"
+            android:layout_below="@id/imgMySql"
+            />
+        <ImageView
+            android:id="@+id/imgFB"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textViewCursoCatgDB_FB"
+            android:src="@drawable/curso_firebase"
+            />
+
+        <ImageView
+            android:id="@+id/imgSqlite"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/imgFB"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/curso_sqlite"
+            />
+    </RelativeLayout>
+
+</ScrollView>

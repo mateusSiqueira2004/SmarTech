@@ -1,0 +1,70 @@
+<resources>
+    <!--Titulos Principais-->
+    <string name="app_name">SmarTech</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notification">notification </string>
+    <string name="menu_curso">Cursos</string>
+    <string name="menu_comunidade">Comunidade</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_inicial">SmarTech</string>
+    <string name="sub_menu"> </string>
+    <string name="menu_gerenciarUser">Gerenciar</string>
+
+    <!--Titulos Secundarios-->
+    <string name="fragment_curso">Tipos de Curso</string>
+    <string name="curso_hardware">HardWare</string>
+    <string name="curso_lp">Programação</string>
+    <string name="curso_db">DataBase</string>
+    <string name="catg_mcp">Computadores</string>
+    <string name="catg_rede">Redes</string>
+    <string name="catg_server">Servidores</string>
+    <string name="catg_html">HTML</string>
+    <string name="catg_css">CSS</string>
+    <string name="catg_js">JavaScript</string>
+    <string name="catg_j">Java</string>
+    <string name="catg_mysql">MySql</string>
+    <string name="catg_fb">FireBase</string>
+    <string name="catg_sqlite">SQLite</string>
+
+    <!--Examplos-->
+    <string name="example">Aulas e apenas aulas</string>
+    <string name="examplesub">Aula sobre blá blá  há 2000 anos atrás</string>
+    <string name="example_comenter">Digite o seu comentário</string>
+    <string name="exemplo_de_nome">EXEMPLO DE NOME</string>
+    <string name="ezemplo_giga_de_comentario">MUITOS EXEMPLOS SÂO FEITOS NESSA VIDA POR CONTA DISTO ESTE AQUI È UM GRANDE EXEMPLO SEM FUNDAMENTO</string>
+    <string name="menu_perfil">Perfil</string>
+
+    <string-array name="SpinnerFunction">
+        <item>Administrador</item>
+        <item>Gerente</item>
+        <item>Funcionario</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil">Perfil</string>
+
+    <!-- Chat Strings -->
+    <string name="chat_exit">Voltar</string>
+    <string name="chat_send">Enviar</string>
+    <string name="bemvindo">Bem Vindo</string>
+
+    <string name="b1">Suporte</string>
+    <string name="b2">Duvida</string>
+
+    <string name="botmchat1">Selecione a opção que deseja:</string>
+    <string name="botmchat2">Você selecionou DUVIDA. Escolha o tema que deseja consultar:</string>
+    <string name="botdres1">Html</string>
+    <string name="botdres2">Kotlin</string>
+    <string name="finala">finalizar</string>
+
+    <string name="botmchatfinal1">Aguarde em breve um especialista te ajudara no assunto! 😊</string>
+    <string name="discord_da_discordia_pagodeiro">DISCORD DA DISCORDIA; PAGODEIRO</string>
+
+    <!-- Chat Strings -->
+</resources>

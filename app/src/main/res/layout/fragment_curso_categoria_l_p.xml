@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".navigation.ui.cursos.CursosFragment"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewCursoCatgLP_HTML"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/catg_html"
+            android:textSize="50dp"
+            android:gravity="center"
+            />
+        <ImageView
+            android:id="@+id/imgHtml"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textViewCursoCatgLP_HTML"
+            android:src="@drawable/curso_html"
+            />
+
+        <TextView
+            android:id="@+id/textViewCursoCatgLP_CSS"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/imgHtml"
+            android:text="@string/catg_css"
+            android:textSize="50dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgCss"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textViewCursoCatgLP_CSS"
+            android:src="@drawable/curso_css" />
+
+        <TextView
+            android:id="@+id/textViewCursoCatgLP_JavaScript"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/imgCss"
+            android:text="@string/catg_js"
+            android:textSize="50dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgJS"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textViewCursoCatgLP_JavaScript"
+            android:src="@drawable/curso_javascript" />
+
+        <TextView
+            android:id="@+id/textViewCursoCatgLP_Java"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/imgJS"
+            android:text="@string/catg_j"
+            android:textSize="50dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgJava"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textViewCursoCatgLP_Java"
+            android:src="@drawable/curso_java"
+            android:layout_marginBottom="40dp"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

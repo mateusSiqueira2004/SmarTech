@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.ui.cursos.HDFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center">
+       <TextView
+           android:id="@+id/textViewCursoCatgHD_MCP"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp"
+           android:text="@string/catg_mcp"
+           android:textSize="50dp"
+           />
+
+       <ImageView
+           android:id="@+id/imgMCP"
+           android:layout_width="330dp"
+           android:layout_height="200dp"
+           android:layout_below="@id/textViewCursoCatgHD_MCP"
+           android:src="@drawable/ic_baseline_computer_24"
+           />
+       <TextView
+           android:id="@+id/textViewCursoCatgHD_Rede"
+           android:layout_width="330dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp"
+           android:text="@string/catg_rede"
+           android:textSize="50dp"
+           android:layout_below="@id/imgMCP"
+           android:gravity="center"
+           />
+       <ImageView
+           android:id="@+id/imgRede"
+           android:layout_width="330dp"
+           android:layout_height="200dp"
+           android:layout_below="@+id/textViewCursoCatgHD_Rede"
+           android:src="@drawable/ic_baseline_language_24"
+           android:visibility="visible"
+           />
+       <TextView
+           android:id="@+id/textViewCursoCatgHD_Server"
+           android:layout_width="330dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dp"
+           android:text="@string/catg_server"
+           android:textSize="50dp"
+           android:layout_below="@id/imgRede"
+           android:gravity="center"
+           />
+       <ImageView
+           android:id="@+id/imgServer"
+           android:layout_width="330dp"
+           android:layout_height="200dp"
+           android:layout_below="@+id/textViewCursoCatgHD_Server"
+           android:src="@drawable/ic_baseline_cloud_circle_24"
+            android:visibility="visible"
+           />
+
+   </RelativeLayout>
+</ScrollView>

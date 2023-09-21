@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_coment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/imageUser"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/containerusercomment"
+        android:paddingTop="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButtonUser"
+        android:layout_width="46dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/ic_user"
+        android:layout_marginTop="32dp"
+        tools:ignore="SpeakableTextPresentChe\ck"
+        tools:srcCompat="@drawable/ic_user" />
+    <LinearLayout
+        android:id="@+id/container_comment_menssageCC"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginStart="70dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exemplo_de_nome"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:background="@drawable/containersettingscoment"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@drawable/containersettingscoment"
+            android:text="@string/ezemplo_giga_de_comentario"
+            />
+    </LinearLayout>
+</RelativeLayout>

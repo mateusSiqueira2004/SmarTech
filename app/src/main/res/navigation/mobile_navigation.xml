@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.home.HomeFragment"
+        android:label="@string/menu_inicial"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_geruser"
+            app:destination="@id/nav_geruser" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_curso"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.CursosFragment"
+        android:label="@string/fragment_curso"
+        tools:layout="@layout/fragment_curso" >
+        <action
+            android:id="@+id/action_nav_curso_to_nav_curso_catg_lp2"
+            app:destination="@id/nav_curso_catg_lp" />
+        <action
+            android:id="@+id/action_nav_curso_to_nav_curso_catg_hd"
+            app:destination="@id/nav_curso_catg_hd" />
+        <action
+            android:id="@+id/action_nav_curso_to_nav_curso_catg_db"
+            app:destination="@id/nav_curso_catg_db" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_lista_videos"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.containervideos.ListaDeCursosFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/layout_listacursos">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_curso_catg_lp"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.CursoCategoriaLPFragment"
+        android:label="@string/fragment_curso"
+        tools:layout="@layout/fragment_curso_categoria_l_p">
+        <action
+            android:id="@+id/action_nav_curso_catg_lp_to_nav_lista_videos"
+            app:destination="@id/nav_lista_videos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_curso_catg_hd"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.HDFragment"
+        android:label="@string/fragment_curso"
+        tools:layout="@layout/fragment_h_d"
+        >
+        <action
+            android:id="@+id/action_nav_curso_catg_hd_to_nav_lista_videos"
+            app:destination="@id/nav_lista_videos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_curso_catg_db"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.DBFragment"
+        android:label="@string/fragment_curso"
+        tools:layout="@layout/fragment_d_b"
+        >
+        <action
+            android:id="@+id/action_nav_curso_catg_db_to_nav_lista_videos"
+            app:destination="@id/nav_lista_videos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.chat.ChatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_nav_chat_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_comunidade"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.comunidade.ComunidadeFragment"
+        android:label="@string/menu_comunidade"
+        tools:layout="@layout/fragment_comunidade"
+        />
+
+    <activity
+        android:id="@+id/nav_player"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.cursos.containervideos.PlayerActivity"
+        android:label=""
+        tools:layout="@layout/activity_player"
+        />
+    <fragment
+        android:id="@+id/nav_geruser"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.gerenciamento.GerenciarFragment"
+        android:label="@string/menu_gerenciarUser"
+        tools:layout="@layout/fragment_gerenciar"
+        >
+        <action
+            android:id="@+id/action_nav_geruser_to_funcionario_home"
+            app:destination="@id/funcionario_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.perfil.Perfil"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil"
+        >
+        <action
+            android:id="@+id/action_nav_perfil_to_nav_editar_perfil"
+            app:destination="@id/nav_editar_perfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_editar_perfil"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.perfil.Editar_ususario"
+        android:label="Editar Usuario"
+        tools:layout="@layout/fragment_editar_ususario"
+        />
+    <fragment
+        android:id="@+id/cadastrar_adm"
+        android:label="cadastar adm"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.Administrador.Cadastrar_ADM"
+        tools:layout="@layout/fragment_cadastrar__a_d_m"
+        >
+        <action
+            android:id="@+id/action_cadastrar_adm_to_nav_geruser"
+            app:destination="@id/nav_geruser" />
+    </fragment>
+    <fragment
+        android:id="@+id/funcionario_home"
+        android:label="Funcionario home"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.Administrador.funcionario_home"
+        tools:layout="@layout/fragment_funcionario_home"
+        >
+        <action
+            android:id="@+id/action_funcionario_home_to_cadastrar_adm"
+            app:destination="@id/cadastrar_adm" />
+        <action
+            android:id="@+id/action_funcionario_home_to_Excluir_Funcioanrio"
+            app:destination="@id/Excluir_Funcioanrio" />
+    </fragment>
+    <fragment
+        android:id="@+id/Excluir_Funcioanrio"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.Administrador.Excluir_Funcionario"
+        android:label="Excluir Funcionario"
+        tools:layout="@layout/fragment_excluir__funcionario"
+        />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.smartechnavigationdrawer.navigation.ui.exit.ExitFragment"
+        tools:layout="@layout/fragment_exit"
+        />
+</navigation>
