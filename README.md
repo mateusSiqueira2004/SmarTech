@@ -9,12 +9,19 @@ Este projeto tinha como objetivo a criação de um aplicativo mobile para cursos
 
 Eu estive responsável pela telas principais de menu, as telas de seleção de curso, listagem de aulas e players, fazendo tanto o frontend como também o backend, além de auxiliar os outros integrantes em outras coisas como o identificador de Usuário (se o usuário é Adm ou Comum).
 
-Os outros integrantes foram: 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Os outros integrantes foram:
+
 Victor Gomes:        https://www.linkedin.com/in/victor-gomes-2004s/  
+
 Vinicius Pawlowicz:  https://www.linkedin.com/in/vinícius-de-oliveira-pawlowicz-99b9a6216/
+
 Vitor Santos:        https://www.linkedin.com/in/vitor-hcsantos/  
+
 Lucas Anastacio:     https://www.linkedin.com/in/lucas-anastacio-512a52213/
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Victor Gomes: com maior proeficiência em FrontEnd criou todo desing do menu inicial e logo.
 
